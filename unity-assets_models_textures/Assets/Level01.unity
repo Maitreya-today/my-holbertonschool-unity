@@ -301,7 +301,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &2026165921
+--- !u!1001 &2038134348
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -354,6 +354,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7582934027659762617, guid: 58f323a046bba1247a0d999817360f74, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7582934027659762617, guid: 58f323a046bba1247a0d999817360f74, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
