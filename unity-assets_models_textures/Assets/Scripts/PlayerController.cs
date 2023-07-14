@@ -7,14 +7,13 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 5f;
     private Rigidbody rb;
-    public Vector3 startPosition;
+    public Transform startPosition;
     public float respawnHeight = -10f;
     public float respawnOffset = 2f;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        startPosition = gameObject.transform.position;
     }
 
     private void Update()
@@ -34,7 +33,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = Vector3.zero;
             rb.useGravity = false;
-            transform.position = startPosition + Vector3.up * respawnOffset;
+            transform.position = startPosition.position + Vector3.up * respawnOffset;
             rb.useGravity = true;
         }
     }
