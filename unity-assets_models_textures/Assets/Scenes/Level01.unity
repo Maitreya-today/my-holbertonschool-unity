@@ -2935,7 +2935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 5
-  startPosition: {fileID: 0}
+  startPosition: {fileID: 143320655}
   respawnHeight: -10
   respawnOffset: 2
 --- !u!54 &2038134365
